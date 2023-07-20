@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(var even=0;even<=100;even++){ if(even % 2 == 0) { console.log(even); document.write(even + "\n");} }
+    </script>
+
+    <p>enter the month number</p> <input type="number" id="myText" value="0">
+    <button type="button" onclick="myFunction()">Try it</button>
+   
+    <script>
+    function myFunction() 
+    {
+        var x = document.getElementById("myText").value;
+        if (x == 1){document.write("january"); console.log("january")}
+        else if(x == 2){document.write("February"); console.log("February")}
+        else if(x == 3){document.write("March"); console.log("March")}
+        else if(x == 4){document.write("April"); console.log("April")}
+        else if(x == 5){document.write("May"); console.log("May")}
+        else if(x == 6){document.write("June"); console.log("June")}
+        else if(x == 7){document.write("July"); console.log("July")}
+        else if(x == 8){document.write("August"); console.log("August")}
+        else if(x == 9){document.write("September"); console.log("September")}
+        else if(x == 10){document.write("October"); console.log("October")}
+        else if(x == 11){document.write("November"); console.log("November")}
+        else if(x == 12){document.write("December"); console.log("December")}
+        else{document.write("enter wrong value"); console.log("enter wrong value")}
+    }
+    </script>
+   
+</body>
+</html>
